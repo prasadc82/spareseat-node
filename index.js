@@ -5,7 +5,7 @@ var nodemailer = require('nodemailer');
 var schedule = require('node-schedule');
 var Promise = require('promise');
 
-var mailTransport = nodemailer.createTransport('smtps://prasad.c82%40gmail.com:kris12hna@smtp.gmail.com');
+var mailTransport = nodemailer.createTransport('smtps://prasad.c82%40gmail.com:*******@smtp.gmail.com');
 
 var serviceAccount = require("./serviceAccountKey.json");
 
